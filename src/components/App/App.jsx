@@ -72,11 +72,7 @@ class App extends Component {
           contacts={visibleContact()}
           onDeleteContact={this.deleteContact}
         />
-        <ContactsFilter value={this.filter} onChange={this.changeFilter} />
-        <ContactsView
-          contacts={visibleContact()}
-          onDeleteContact={this.deleteContact}
-        />      </Wrapper>
+     </Wrapper>
     );
   }
 }
