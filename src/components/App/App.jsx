@@ -76,6 +76,10 @@ class App extends Component {
           contacts={visibleContact()}
           onDeleteContact={this.deleteContact}
         />
+        <ContactsView
+          contacts={visibleContact()}
+          onDeleteContact={this.deleteContact}
+        />
       </Wrapper>
     );
   }
