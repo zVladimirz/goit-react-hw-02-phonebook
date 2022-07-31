@@ -4,7 +4,7 @@ export const ContactsViewList = styled.ul`
   padding: 0px;
 `;
 
-export const ContactsViewList__item = styled.li`
+export const ContactsViewListItem = styled.li`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,6 +18,6 @@ export const ContactsViewList__item = styled.li`
   /* border: 1px solid black; */
 `;
 
-export const ContactsViewList__text = styled.p`
+export const ContactsViewListText = styled.p`
   margin: 0px;
 `;
