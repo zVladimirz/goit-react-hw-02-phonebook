@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import { nanoid } from 'nanoid';
 import { Wrapper } from './App.styled';
@@ -8,10 +7,6 @@ import ContactsFilter from 'components/ContactsFilter';
 import ContactForm from 'components/ContactForm';
 
 class App extends Component {
-  static propTypes = {
-    contacts: PropTypes.array,
-  };
-
   state = {
     contacts: [
       { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
